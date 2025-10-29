@@ -1,0 +1,19 @@
+{
+  "name": "pf03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^4.0.5"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
