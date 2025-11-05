@@ -1,13 +1,13 @@
-# 🧪 Proyecto TDD con Node.js y GitHub Actions
+# Proyecto TDD con Node.js y GitHub Actions
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto tiene como objetivo **practicar la metodología TDD (Test Driven Development)** y el uso de **GitHub Actions** para la integración continua.  
 Durante el desarrollo se implementarán **dos funciones (fibonacci y esPinValido)** siguiendo el ciclo **Red → Green → Refactor**, trabajando en equipo con **GitFlow** y **colaboración mediante GitHub**.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 - Aplicar la metodología **TDD** en Node.js.  
 - Integrar **pruebas unitarias** desde el inicio del desarrollo.  
@@ -16,9 +16,9 @@ Durante el desarrollo se implementarán **dos funciones (fibonacci y esPinValido
 
 ---
 
-## ⚙️ Funciones a Implementar
+## Funciones a Implementar
 
-### 🧮 1. `fibonacci(n)`
+### 1. `fibonacci(n)`
 
 Devuelve el valor de la secuencia de Fibonacci en la posición `n`.
 
@@ -33,8 +33,9 @@ Devuelve el valor de la secuencia de Fibonacci en la posición `n`.
 fibonacci(0); // 0
 fibonacci(1); // 1
 fibonacci(6); // 8
+```
 
-### 🔢 2. `esPinValido(pin)`
+### 2. `esPinValido(pin)`
 
 Verifica si un PIN cumple con las reglas típicas de un código numérico de 4 o 6 dígitos.
 
@@ -56,3 +57,4 @@ esPinValido("12a4");    // false
 esPinValido("987654");  // true
 esPinValido("");        // false
 esPinValido(null);      // false
+```
